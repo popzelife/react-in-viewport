@@ -17,8 +17,8 @@ function handleViewport(TargetComponent, options, config = { disconnectOnLeave: 
       config,
       {
         onEnterViewport,
-        onLeaveViewport,
-      },
+        onLeaveViewport
+      }
     );
     
     return (
